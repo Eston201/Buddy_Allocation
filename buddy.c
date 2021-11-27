@@ -51,7 +51,7 @@ int level(int req) {
 	int lvl = 0;
 	int size = 32;
 	while(total_size > size){
-		size *= 2 ;;
+		size *= 2 ;
 		lvl++;
 	}
 	return lvl;	
